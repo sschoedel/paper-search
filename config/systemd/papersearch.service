@@ -1,0 +1,15 @@
+[Unit]
+Description=Paper Search Collection Service
+After=network.target
+
+[Service]
+Type=oneshot
+User=pi
+WorkingDirectory=/home/pi/papersearch
+Environment="PATH=/home/pi/papersearch/venv/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/home/pi/papersearch/venv/bin/python /home/pi/papersearch/scripts/run_collection.py
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,66 @@
+arxiv:
+  categories:
+    - cs.RO  # Robotics
+    - cs.LG  # Machine Learning
+    - cs.AI  # Artificial Intelligence
+    - cs.CV  # Computer Vision (for VLAs)
+
+  keywords:
+    # Humanoid robotics
+    - "humanoid robot"
+    - "humanoid locomotion"
+    - "bipedal robot"
+    - "legged robot"
+
+    # Manipulation and grasping
+    - "robotic manipulation"
+    - "robotic grasping"
+    - "dexterous manipulation"
+    - "pick and place"
+    - "object manipulation"
+    - "hand manipulation"
+    - "contact-rich manipulation"
+
+    # Vision-Language-Action models
+    - "vision language action"
+    - "VLA"
+    - "vision-language model"
+    - "multimodal robot"
+    - "language conditioned"
+
+    # Locomotion
+    - "robot locomotion"
+    - "natural walking"
+    - "quadruped locomotion"
+    - "legged locomotion"
+    - "stylized locomotion"
+    - "stylized control"
+    - "motion style"
+    - "character animation"
+
+    # World models
+    - "world model"
+    - "world models"
+    - "predictive model"
+    - "dynamics model"
+    - "forward model"
+
+    # RL for control
+    - "reinforcement learning"
+    - "trajectory tracking"
+    - "trajectory optimization"
+    - "velocity control"
+    - "tracking control"
+    - "reference tracking"
+    - "model predictive control"
+
+    # Simulation
+    - "robot simulation"
+    - "physics simulation"
+    - "sim-to-real"
+    - "simulation technology"
+    - "differentiable simulation"
+    - "Isaac Gym"
+    - "MuJoCo"
+
+  max_results_per_query: 50

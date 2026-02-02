@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily Paper Search Collection Timer
+Requires=papersearch.service
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+Unit=papersearch.service
+
+[Install]
+WantedBy=timers.target

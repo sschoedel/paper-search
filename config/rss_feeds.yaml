@@ -1,0 +1,26 @@
+feeds:
+  # Research lab blogs
+  - url: "https://bair.berkeley.edu/blog/feed.xml"
+    name: "BAIR"
+  - url: "https://deepmind.google/blog/rss.xml"
+    name: "DeepMind"
+  - url: "https://openai.com/blog/rss.xml"
+    name: "OpenAI"
+
+  # Robotics-focused sources
+  - url: "https://www.trossenrobotics.com/blog.atom"
+    name: "Trossen Robotics"
+
+  # General ML/AI blogs
+  - url: "https://distill.pub/rss.xml"
+    name: "Distill"
+
+  # arXiv RSS feeds (broader coverage)
+  - url: "http://export.arxiv.org/rss/cs.RO"
+    name: "arXiv cs.RO RSS"
+  - url: "http://export.arxiv.org/rss/cs.LG"
+    name: "arXiv cs.LG RSS"
+  - url: "http://export.arxiv.org/rss/cs.AI"
+    name: "arXiv cs.AI RSS"
+  - url: "http://export.arxiv.org/rss/cs.CV"
+    name: "arXiv cs.CV RSS"
