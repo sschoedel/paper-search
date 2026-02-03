@@ -1,0 +1,79 @@
+# Seminal Papers for Initial Collection
+# Format: arXiv_ID or DOI (one per line)
+# Lines starting with # are comments
+
+## Core RL Algorithms (Policy Gradient)
+1502.05477  # TRPO - Trust Region Policy Optimization
+1707.06347  # PPO - Proximal Policy Optimization
+1602.01783  # A3C - Asynchronous Methods for Deep RL
+
+## Core RL Algorithms (Actor-Critic)
+1509.02971  # DDPG - Continuous Control with Deep RL
+1802.09477  # TD3 - Twin Delayed DDPG
+1801.01290  # SAC - Soft Actor-Critic
+
+## Value-Based Methods
+nature14236  # DQN - Human-level control (Nature 2015)
+1509.06461  # Double DQN
+1511.06581  # Dueling DQN
+1511.05952  # Prioritized Experience Replay
+1710.02298  # Rainbow
+
+## Simulation & Physics Engines
+1204.1473   # MuJoCo: A physics engine for model-based control
+2109.11978  # Isaac Gym - Learning to Walk in Minutes
+
+## Sim-to-Real Transfer
+2509.06342  # PACE - Towards bridging the gap: Systematic sim-to-real transfer for diverse legged robots
+
+## System Identification
+2404.12308  # ASID - Active Exploration for System Identification in Robotic Manipulation
+2505.23138  # System Identification for Virtual Sensor-Based Model Predictive Control (2-DoF Direct-Drive Robotic Arm)
+
+## Vision-Language-Action Models (VLAs)
+2303.03378  # PaLM-E
+2310.08864  # OpenVLA
+2303.08631  # RT-2
+2204.01691  # SayCan
+2403.09631  # 3D-VLA
+2406.04339  # RoboMamba
+2403.01823  # RT-H
+
+## Code as Action
+2209.07753  # Code as Policies
+2209.11302  # ProgPrompt
+
+## Affordance-Based Manipulation
+2306.16605  # KITE
+2109.12098  # CLIPort
+2307.05973  # VoxPoser
+2406.10721  # RoboPoint
+
+## Trajectory-Based Learning
+2310.08576  # AVDC
+2311.01977  # RT-Trajectory
+2401.00025  # ATM
+2406.11815  # LLARVA
+
+## Foundation Models (Vision-Language)
+1706.03762  # Transformer
+2010.11929  # ViT - Vision Transformer
+2103.00020  # CLIP
+2304.08485  # LLaVA
+2304.02643  # SAM - Segment Anything
+
+## Exploration & Representation
+1705.05363  # ICM - Curiosity-driven Exploration
+2004.04136  # CURL - Contrastive Unsupervised Representations
+2006.10742  # DBC - Learning Invariant Representations
+2004.13649  # DrQ - Image Augmentation Is All You Need
+
+## World Models & Planning
+# Add world models papers
+
+## Manipulation & Grasping
+2312.16217  # ManipLLM
+2405.06964  # ManiFoundation
+
+## Locomotion
+# Add specific locomotion papers
